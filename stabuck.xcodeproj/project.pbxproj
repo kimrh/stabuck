@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3B98E9F2111EECC00010C3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B98E9E2111EECC00010C3C /* AppDelegate.swift */; };
+		C3B98EA12111EECC00010C3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B98EA02111EECC00010C3C /* ViewController.swift */; };
+		C3B98EA42111EECC00010C3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3B98EA22111EECC00010C3C /* Main.storyboard */; };
+		C3B98EA62111EECD00010C3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3B98EA52111EECD00010C3C /* Assets.xcassets */; };
+		C3B98EA92111EECD00010C3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3B98EA72111EECD00010C3C /* LaunchScreen.storyboard */; };
+		C3B98EB42111EECD00010C3C /* stabuckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B98EB32111EECD00010C3C /* stabuckTests.swift */; };
+		C3B98EBF2111EECD00010C3C /* stabuckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B98EBE2111EECD00010C3C /* stabuckUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3B98EB02111EECD00010C3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3B98E932111EECC00010C3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3B98E9A2111EECC00010C3C;
+			remoteInfo = stabuck;
+		};
+		C3B98EBB2111EECD00010C3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3B98E932111EECC00010C3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3B98E9A2111EECC00010C3C;
+			remoteInfo = stabuck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3B98E9B2111EECC00010C3C /* stabuck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stabuck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B98E9E2111EECC00010C3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3B98EA02111EECC00010C3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C3B98EA32111EECC00010C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3B98EA52111EECD00010C3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3B98EA82111EECD00010C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3B98EAA2111EECD00010C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3B98EAF2111EECD00010C3C /* stabuckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stabuckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B98EB32111EECD00010C3C /* stabuckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stabuckTests.swift; sourceTree = "<group>"; };
+		C3B98EB52111EECD00010C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3B98EBA2111EECD00010C3C /* stabuckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stabuckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B98EBE2111EECD00010C3C /* stabuckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stabuckUITests.swift; sourceTree = "<group>"; };
+		C3B98EC02111EECD00010C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3B98E982111EECC00010C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B98EAC2111EECD00010C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B98EB72111EECD00010C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3B98E922111EECC00010C3C = {
+			isa = PBXGroup;
+			children = (
+				C3B98E9D2111EECC00010C3C /* stabuck */,
+				C3B98EB22111EECD00010C3C /* stabuckTests */,
+				C3B98EBD2111EECD00010C3C /* stabuckUITests */,
+				C3B98E9C2111EECC00010C3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3B98E9C2111EECC00010C3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3B98E9B2111EECC00010C3C /* stabuck.app */,
+				C3B98EAF2111EECD00010C3C /* stabuckTests.xctest */,
+				C3B98EBA2111EECD00010C3C /* stabuckUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3B98E9D2111EECC00010C3C /* stabuck */ = {
+			isa = PBXGroup;
+			children = (
+				C3B98E9E2111EECC00010C3C /* AppDelegate.swift */,
+				C3B98EA02111EECC00010C3C /* ViewController.swift */,
+				C3B98EA22111EECC00010C3C /* Main.storyboard */,
+				C3B98EA52111EECD00010C3C /* Assets.xcassets */,
+				C3B98EA72111EECD00010C3C /* LaunchScreen.storyboard */,
+				C3B98EAA2111EECD00010C3C /* Info.plist */,
+			);
+			path = stabuck;
+			sourceTree = "<group>";
+		};
+		C3B98EB22111EECD00010C3C /* stabuckTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3B98EB32111EECD00010C3C /* stabuckTests.swift */,
+				C3B98EB52111EECD00010C3C /* Info.plist */,
+			);
+			path = stabuckTests;
+			sourceTree = "<group>";
+		};
+		C3B98EBD2111EECD00010C3C /* stabuckUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3B98EBE2111EECD00010C3C /* stabuckUITests.swift */,
+				C3B98EC02111EECD00010C3C /* Info.plist */,
+			);
+			path = stabuckUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3B98E9A2111EECC00010C3C /* stabuck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3B98EC32111EECD00010C3C /* Build configuration list for PBXNativeTarget "stabuck" */;
+			buildPhases = (
+				C3B98E972111EECC00010C3C /* Sources */,
+				C3B98E982111EECC00010C3C /* Frameworks */,
+				C3B98E992111EECC00010C3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stabuck;
+			productName = stabuck;
+			productReference = C3B98E9B2111EECC00010C3C /* stabuck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3B98EAE2111EECD00010C3C /* stabuckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3B98EC62111EECD00010C3C /* Build configuration list for PBXNativeTarget "stabuckTests" */;
+			buildPhases = (
+				C3B98EAB2111EECD00010C3C /* Sources */,
+				C3B98EAC2111EECD00010C3C /* Frameworks */,
+				C3B98EAD2111EECD00010C3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3B98EB12111EECD00010C3C /* PBXTargetDependency */,
+			);
+			name = stabuckTests;
+			productName = stabuckTests;
+			productReference = C3B98EAF2111EECD00010C3C /* stabuckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3B98EB92111EECD00010C3C /* stabuckUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3B98EC92111EECD00010C3C /* Build configuration list for PBXNativeTarget "stabuckUITests" */;
+			buildPhases = (
+				C3B98EB62111EECD00010C3C /* Sources */,
+				C3B98EB72111EECD00010C3C /* Frameworks */,
+				C3B98EB82111EECD00010C3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3B98EBC2111EECD00010C3C /* PBXTargetDependency */,
+			);
+			name = stabuckUITests;
+			productName = stabuckUITests;
+			productReference = C3B98EBA2111EECD00010C3C /* stabuckUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3B98E932111EECC00010C3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = kimrh;
+				TargetAttributes = {
+					C3B98E9A2111EECC00010C3C = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					C3B98EAE2111EECD00010C3C = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = C3B98E9A2111EECC00010C3C;
+					};
+					C3B98EB92111EECD00010C3C = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = C3B98E9A2111EECC00010C3C;
+					};
+				};
+			};
+			buildConfigurationList = C3B98E962111EECC00010C3C /* Build configuration list for PBXProject "stabuck" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3B98E922111EECC00010C3C;
+			productRefGroup = C3B98E9C2111EECC00010C3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3B98E9A2111EECC00010C3C /* stabuck */,
+				C3B98EAE2111EECD00010C3C /* stabuckTests */,
+				C3B98EB92111EECD00010C3C /* stabuckUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3B98E992111EECC00010C3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B98EA92111EECD00010C3C /* LaunchScreen.storyboard in Resources */,
+				C3B98EA62111EECD00010C3C /* Assets.xcassets in Resources */,
+				C3B98EA42111EECC00010C3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B98EAD2111EECD00010C3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B98EB82111EECD00010C3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3B98E972111EECC00010C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B98EA12111EECC00010C3C /* ViewController.swift in Sources */,
+				C3B98E9F2111EECC00010C3C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B98EAB2111EECD00010C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B98EB42111EECD00010C3C /* stabuckTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B98EB62111EECD00010C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B98EBF2111EECD00010C3C /* stabuckUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3B98EB12111EECD00010C3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3B98E9A2111EECC00010C3C /* stabuck */;
+			targetProxy = C3B98EB02111EECD00010C3C /* PBXContainerItemProxy */;
+		};
+		C3B98EBC2111EECD00010C3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3B98E9A2111EECC00010C3C /* stabuck */;
+			targetProxy = C3B98EBB2111EECD00010C3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3B98EA22111EECC00010C3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3B98EA32111EECC00010C3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3B98EA72111EECD00010C3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3B98EA82111EECD00010C3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3B98EC12111EECD00010C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3B98EC22111EECD00010C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3B98EC42111EECD00010C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AXJ2B6SFQQ;
+				INFOPLIST_FILE = stabuck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.exam.stabuck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3B98EC52111EECD00010C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AXJ2B6SFQQ;
+				INFOPLIST_FILE = stabuck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.exam.stabuck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C3B98EC72111EECD00010C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AXJ2B6SFQQ;
+				INFOPLIST_FILE = stabuckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.exam.stabuckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stabuck.app/stabuck";
+			};
+			name = Debug;
+		};
+		C3B98EC82111EECD00010C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AXJ2B6SFQQ;
+				INFOPLIST_FILE = stabuckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.exam.stabuckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stabuck.app/stabuck";
+			};
+			name = Release;
+		};
+		C3B98ECA2111EECD00010C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AXJ2B6SFQQ;
+				INFOPLIST_FILE = stabuckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.exam.stabuckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = stabuck;
+			};
+			name = Debug;
+		};
+		C3B98ECB2111EECD00010C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AXJ2B6SFQQ;
+				INFOPLIST_FILE = stabuckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.exam.stabuckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = stabuck;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3B98E962111EECC00010C3C /* Build configuration list for PBXProject "stabuck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B98EC12111EECD00010C3C /* Debug */,
+				C3B98EC22111EECD00010C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3B98EC32111EECD00010C3C /* Build configuration list for PBXNativeTarget "stabuck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B98EC42111EECD00010C3C /* Debug */,
+				C3B98EC52111EECD00010C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3B98EC62111EECD00010C3C /* Build configuration list for PBXNativeTarget "stabuckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B98EC72111EECD00010C3C /* Debug */,
+				C3B98EC82111EECD00010C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3B98EC92111EECD00010C3C /* Build configuration list for PBXNativeTarget "stabuckUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B98ECA2111EECD00010C3C /* Debug */,
+				C3B98ECB2111EECD00010C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3B98E932111EECC00010C3C /* Project object */;
+}
