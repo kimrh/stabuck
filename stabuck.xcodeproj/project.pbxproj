@@ -15,6 +15,7 @@
 		C3B98EB42111EECD00010C3C /* stabuckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B98EB32111EECD00010C3C /* stabuckTests.swift */; };
 		C3B98EBF2111EECD00010C3C /* stabuckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B98EBE2111EECD00010C3C /* stabuckUITests.swift */; };
 		C3B98ECD2111FCDC00010C3C /* siba.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C3B98ECC2111FCDC00010C3C /* siba.jpeg */; };
+		CE73AE5C21318770007C76D0 /* SBCirclularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE73AE5B21318770007C76D0 /* SBCirclularProgressBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C3B98EBE2111EECD00010C3C /* stabuckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stabuckUITests.swift; sourceTree = "<group>"; };
 		C3B98EC02111EECD00010C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3B98ECC2111FCDC00010C3C /* siba.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = siba.jpeg; sourceTree = "<group>"; };
+		CE73AE5B21318770007C76D0 /* SBCirclularProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBCirclularProgressBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				C3B98ECC2111FCDC00010C3C /* siba.jpeg */,
 				C3B98E9E2111EECC00010C3C /* AppDelegate.swift */,
 				C3B98EA02111EECC00010C3C /* ViewController.swift */,
+				CE73AE5B21318770007C76D0 /* SBCirclularProgressBar.swift */,
 				C3B98EA22111EECC00010C3C /* Main.storyboard */,
 				C3B98EA52111EECD00010C3C /* Assets.xcassets */,
 				C3B98EA72111EECD00010C3C /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE73AE5C21318770007C76D0 /* SBCirclularProgressBar.swift in Sources */,
 				C3B98EA12111EECC00010C3C /* ViewController.swift in Sources */,
 				C3B98E9F2111EECC00010C3C /* AppDelegate.swift in Sources */,
 			);
