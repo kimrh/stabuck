@@ -122,20 +122,28 @@ class ViewController: UIViewController {
         btnUSer?.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 0.5, constant: 11).isActive = true
         btnUSer?.heightAnchor.constraint(equalToConstant: 160).isActive = true
         
-        let userImageView = UIImageView(image: UIImage(named: "ttttt"))
-        userImageView.accessibilityLabel = "userImageView"
-        userImageView.translatesAutoresizingMaskIntoConstraints = false
-        btnUSer?.addSubview(userImageView)
-        
-        userImageView.bottomAnchor.constraint(equalTo: (userImageView.superview?.centerYAnchor)!).isActive = true
-        userImageView.centerXAnchor.constraint(equalTo: (userImageView.superview?.centerXAnchor)!).isActive = true
+        let progressBar = SBCirclularProgressBar()
+        progressBar.percent = 0.3
+        progressBar.translatesAutoresizingMaskIntoConstraints = false
+        btnUSer?.addSubview(progressBar)
+        progressBar.centerYAnchor.constraint(equalTo: (progressBar.superview?.centerYAnchor)!).isActive = true
+        progressBar.centerXAnchor.constraint(equalTo: (progressBar.superview?.centerXAnchor)!).isActive = true
+        progressBar.widthAnchor.constraint(equalToConstant: 100).isActive = true
+        progressBar.heightAnchor.constraint(equalToConstant: 100).isActive = true
+//        let userImageView = UIImageView(image: UIImage(named: "ttttt"))
+//        userImageView.accessibilityLabel = "userImageView"
+//        userImageView.translatesAutoresizingMaskIntoConstraints = false
+//        btnUSer?.addSubview(userImageView)
+//
+//        userImageView.bottomAnchor.constraint(equalTo: (userImageView.superview?.centerYAnchor)!).isActive = true
+//        userImageView.centerXAnchor.constraint(equalTo: (userImageView.superview?.centerXAnchor)!).isActive = true
         
         let userLabel = UILabel()
         userLabel.translatesAutoresizingMaskIntoConstraints = false
         userLabel.text = "user"
         userLabel.textColor = UIColor.white
         btnUSer?.addSubview(userLabel)
-        userLabel.topAnchor.constraint(equalTo: (userLabel.superview?.centerYAnchor)!).isActive = true
+        userLabel.topAnchor.constraint(equalTo: progressBar.bottomAnchor).isActive = true
         userLabel.centerXAnchor.constraint(equalTo: (userLabel.superview?.centerXAnchor)!).isActive = true
        
         scrollviewver?.addSubview(lineViewer!)
