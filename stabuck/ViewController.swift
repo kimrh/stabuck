@@ -89,7 +89,7 @@ class ViewController: UIViewController {
         txtWhatsNeWLabel = UILabel()
         
         //SETTING
-        
+      //  scrollviewver?.alwaysBounceVertical = true
         scrollviewver?.translatesAutoresizingMaskIntoConstraints = false
         scrollviewver?.backgroundColor = UIColor.black
       
@@ -99,6 +99,7 @@ class ViewController: UIViewController {
         self.scrollviewver?.leadingAnchor.constraint(equalTo: self.view.leadingAnchor).isActive = true
         self.scrollviewver?.bottomAnchor.constraint(equalTo: self.view.bottomAnchor).isActive = true
         self.scrollviewver?.trailingAnchor.constraint(equalTo: self.view.trailingAnchor).isActive = true
+        
         
         scrollviewver?.addSubview(txtTitleLabel!)
         txtTitleLabel?.translatesAutoresizingMaskIntoConstraints = false
@@ -119,7 +120,7 @@ class ViewController: UIViewController {
         btnUSer?.translatesAutoresizingMaskIntoConstraints = false
         btnUSer?.leftAnchor.constraint(equalTo: (txtTitleLabel?.leftAnchor)!, constant: 0).isActive = true
         btnUSer?.topAnchor.constraint(equalTo: (txtTitleLabel?.bottomAnchor)!, constant: 10).isActive = true
-        btnUSer?.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 0.5, constant: 11).isActive = true
+        btnUSer?.widthAnchor.constraint(equalTo: (scrollviewver?.widthAnchor)!, multiplier: 0.5, constant: 11).isActive = true
         btnUSer?.heightAnchor.constraint(equalToConstant: 160).isActive = true
         
         let progressBar = SBCirclularProgressBar()
@@ -169,7 +170,7 @@ class ViewController: UIViewController {
         
         btnCard?.leftAnchor.constraint(equalTo: (lineViewer?.rightAnchor)!, constant: 0).isActive = true
         btnCard?.topAnchor.constraint(equalTo: (btnUSer?.topAnchor)!, constant: 0 ).isActive = true
-        btnCard?.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 0.5, constant: 12).isActive = true
+        btnCard?.widthAnchor.constraint(equalTo: (scrollviewver?.widthAnchor)!, multiplier: 0.5, constant: 12).isActive = true
        
         cardImgView?.centerXAnchor.constraint(equalTo: (btnCard?.centerXAnchor)!, constant: 0).isActive = true
         cardImgView?.centerYAnchor.constraint(equalTo: (btnCard?.centerYAnchor)!, constant: 0).isActive = true
@@ -184,7 +185,7 @@ class ViewController: UIViewController {
         lineViewerHorizen1?.leftAnchor.constraint(equalTo: (btnUSer?.leftAnchor)!, constant: 0).isActive = true
         lineViewerHorizen1?.topAnchor.constraint(equalTo: (btnUSer?.bottomAnchor)!, constant: 0).isActive = true
         lineViewerHorizen1?.heightAnchor.constraint(equalToConstant: 2).isActive = true
-        lineViewerHorizen1?.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 1.0, constant: -40).isActive = true
+        lineViewerHorizen1?.widthAnchor.constraint(equalTo: (scrollviewver?.widthAnchor)!, multiplier: 1.0, constant: -40).isActive = true
         
         scrollviewver?.addSubview(btnSirenorder!)
         //self.view.addSubview(btnSirenorder!)
@@ -211,7 +212,7 @@ class ViewController: UIViewController {
         
         btnSirenorder?.leftAnchor.constraint(equalTo: (btnUSer?.leftAnchor)!, constant: 0).isActive = true
         btnSirenorder?.topAnchor.constraint(equalTo: (lineViewerHorizen1?.bottomAnchor)!, constant: 0).isActive = true
-        btnSirenorder?.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 0.6, constant: -20 ).isActive = true
+        btnSirenorder?.widthAnchor.constraint(equalTo: (scrollviewver?.widthAnchor)!, multiplier: 0.6, constant: -20 ).isActive = true
         btnSirenorder?.heightAnchor.constraint(equalToConstant: 100).isActive = true
         
         sirenOrderImgView?.centerXAnchor.constraint(equalTo: (btnSirenorder?.centerXAnchor)!, constant: 0).isActive = true
@@ -231,7 +232,7 @@ class ViewController: UIViewController {
         
         btnEasyorder?.leftAnchor.constraint(equalTo: (lineViewerVertical1?.rightAnchor)!, constant: 0).isActive = true
         btnEasyorder?.topAnchor.constraint(equalTo: (lineViewerHorizen1?.bottomAnchor)!, constant: 0).isActive = true
-        btnEasyorder?.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 0.4, constant: -20 ).isActive = true
+        btnEasyorder?.widthAnchor.constraint(equalTo: (scrollviewver?.widthAnchor)!, multiplier: 0.4, constant: -20 ).isActive = true
         btnEasyorder?.heightAnchor.constraint(equalToConstant: 100).isActive = true
         
         easyOrderImgView?.centerXAnchor.constraint(equalTo: (btnEasyorder?.centerXAnchor)!, constant: 0).isActive = true
@@ -250,7 +251,7 @@ class ViewController: UIViewController {
         lineViewerHorizen2?.leftAnchor.constraint(equalTo: (btnSirenorder?.leftAnchor)!, constant: 0).isActive = true
         lineViewerHorizen2?.topAnchor.constraint(equalTo: (btnSirenorder?.bottomAnchor)!, constant: 0).isActive = true
         lineViewerHorizen2?.heightAnchor.constraint(equalToConstant: 2).isActive = true
-        lineViewerHorizen2?.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 1.0, constant: -40).isActive = true
+        lineViewerHorizen2?.widthAnchor.constraint(equalTo: (scrollviewver?.widthAnchor)!, multiplier: 1.0, constant: -40).isActive = true
         
         scrollviewver?.addSubview(btnCoupon!)
         //self.view.addSubview(btnCoupon!)
@@ -269,7 +270,7 @@ class ViewController: UIViewController {
         
         btnCoupon?.leftAnchor.constraint(equalTo: (btnUSer?.leftAnchor)!, constant: 0).isActive = true
         btnCoupon?.topAnchor.constraint(equalTo: (lineViewerHorizen2?.bottomAnchor)!, constant: 0).isActive = true
-        btnCoupon?.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 0.5, constant: -20 ).isActive = true
+        btnCoupon?.widthAnchor.constraint(equalTo: (scrollviewver?.widthAnchor)!, multiplier: 0.5, constant: -20 ).isActive = true
         btnCoupon?.heightAnchor.constraint(equalToConstant: 100).isActive = true
         
         txtCouponLabel?.centerXAnchor.constraint(equalTo: (btnCoupon?.centerXAnchor)!, constant: 0).isActive = true
@@ -288,7 +289,7 @@ class ViewController: UIViewController {
         
         btnWhatsnew?.leftAnchor.constraint(equalTo: (lineViewerVertical2?.rightAnchor)!, constant: 0).isActive = true
         btnWhatsnew?.topAnchor.constraint(equalTo: (lineViewerHorizen2?.bottomAnchor)!, constant: 0).isActive = true
-        btnWhatsnew?.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 0.5, constant: -20 ).isActive = true
+        btnWhatsnew?.widthAnchor.constraint(equalTo: (scrollviewver?.widthAnchor)!, multiplier: 0.5, constant: -20 ).isActive = true
         btnWhatsnew?.heightAnchor.constraint(equalToConstant: 100).isActive = true
         
         txtWhatsNeWLabel?.centerXAnchor.constraint(equalTo: (btnWhatsnew?.centerXAnchor)!, constant: 0).isActive = true
@@ -298,8 +299,9 @@ class ViewController: UIViewController {
         txtWhatsNeWLabel?.text = "whats'\nnew"
         txtWhatsNeWLabel?.textColor = UIColor.white
         
-        
+        btnCoupon?.bottomAnchor.constraint(equalTo: (scrollviewver?.bottomAnchor)!).isActive = true
     }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
