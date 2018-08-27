@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var timer  = Timer()
     var scrollviewver: UIScrollView?
     
     var scrWidth = UIScreen.main.bounds.width //화면 너비
@@ -49,6 +50,10 @@ class ViewController: UIViewController {
     
     var txtCouponLabel: UILabel?
     var txtWhatsNeWLabel: UILabel?
+    
+    let progressBar = SBCirclularProgressBar()
+    
+    var progressValue: CGFloat = 0.8;
     
     
     override func viewDidLoad() {
@@ -123,14 +128,15 @@ class ViewController: UIViewController {
         btnUSer?.widthAnchor.constraint(equalTo: (scrollviewver?.widthAnchor)!, multiplier: 0.5, constant: 11).isActive = true
         btnUSer?.heightAnchor.constraint(equalToConstant: 160).isActive = true
         
-        let progressBar = SBCirclularProgressBar()
-        progressBar.percent = 0.3
+        
+        progressBar.percent = 0.0
         progressBar.translatesAutoresizingMaskIntoConstraints = false
         btnUSer?.addSubview(progressBar)
         progressBar.centerYAnchor.constraint(equalTo: (progressBar.superview?.centerYAnchor)!).isActive = true
         progressBar.centerXAnchor.constraint(equalTo: (progressBar.superview?.centerXAnchor)!).isActive = true
         progressBar.widthAnchor.constraint(equalToConstant: 100).isActive = true
         progressBar.heightAnchor.constraint(equalToConstant: 100).isActive = true
+        
 //        let userImageView = UIImageView(image: UIImage(named: "ttttt"))
 //        userImageView.accessibilityLabel = "userImageView"
 //        userImageView.translatesAutoresizingMaskIntoConstraints = false
@@ -300,6 +306,7 @@ class ViewController: UIViewController {
         txtWhatsNeWLabel?.textColor = UIColor.white
         
         btnCoupon?.bottomAnchor.constraint(equalTo: (scrollviewver?.bottomAnchor)!).isActive = true
+        runTimer()
     }
     
 
@@ -319,5 +326,17 @@ class ViewController: UIViewController {
         return [.portrait, .landscape]
     }
 
+    func runTimer(){
+        timer = Timer.scheduledTimer(timeInterval: 0.05, target: self, selector: (#selector(ViewController.UpdateTimer)), userInfo: nil, repeats: true)
+    }
+    
+    @objc func UpdateTimer(){
+        
+        var val = progressBar.percent
+        if( val < progressValue) {
+            progressBar.percent = val + 0.025
+            progressBar.configure()
+        }
+    }
 
 }
