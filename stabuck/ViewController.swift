@@ -332,10 +332,13 @@ class ViewController: UIViewController {
     
     @objc func UpdateTimer(){
         
-        var val = progressBar.percent
+        let val = progressBar.percent
         if( val < progressValue) {
             progressBar.percent = val + 0.025
             progressBar.configure()
+        }
+        else{
+            timer.invalidate()
         }
     }
 
